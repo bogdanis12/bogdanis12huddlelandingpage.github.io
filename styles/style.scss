@@ -3,3 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: url(/images/bg-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+}
+img {
+  max-width: 100%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  grid-template-rows: 0.3fr 0.6fr 0.6fr 0.2fr 0.3fr;
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url(/images/bg-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #674baf;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.5fr 1fr 0.5fr;
+      grid-template-columns: 0.5fr 1fr 0.5fr;
+  -ms-grid-rows: 0.3fr 0.6fr 0.6fr 0.2fr 0.3fr;
+      grid-template-rows: 0.3fr 0.6fr 0.6fr 0.2fr 0.3fr;
+}
+/*# sourceMappingURL=style.css.map */
